@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts - Poppins - ExtraLight 200 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/a3cedbb514.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tienda - Nikela</title>
+</head>
+<body>
+    <header>
+
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" class="nav-logo">
+        </a>
+        <nav>
+            <ul class="navbar-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        <ul class="nav-social-list">
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100083129000783"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/nikela_style/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+54%209%201133341558&text=Hola!%20Quiero%20hacerte%20una%20cosulta"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a target="_blank" href="mailto:nikelastyle@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <button id="burguer-menu"><i class="fa-solid fa-bars"></i></button>
+       
+    </header>
+    <div id="mobile-menu">
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        <ul class="mobile-navbar-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+        </ul>
+        <ul class="mobile-nav-social-list">
+            <li class="media-mobile-title">REDES</li>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100083129000783"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/nikela_style/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+54%209%201133341558&text=Hola!%20Quiero%20hacerte%20una%20cosulta"><i class="fa-brands fa-whatsapp"></i>Wapp</a></li>
+            <li><a target="_blank" href="mailto:nikelastyle@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a></li>
+        </ul>
+    </div>
+    <!-- home banner -->
+    <div class="main-banner-cont banner-contacto">
+        <div>
+            <a href="">CONTACTO</a>
+            <p>Reach us</p>
+        </div>
+    </div>
+
+    <main class="main-contacto">
+        <div class="title-container">
+            <hr class="left-line">
+            <h2>CONTACTANOS</h2>
+            <hr class="right-line">
+        </div>
+        <section class="form-section">
+            <form action="https://formspree.io/f/mbjbpnrg" method="POST">
+                <div class="input-box">
+                    <h4>Nombre</h4>
+                    <input type="text" name="message" placeholder="Juan Perez">
+                </div>
+                <div class="input-box">
+                    <h4>Email</h4>
+                    <input type="email" name="_replyto" placeholder="juanperez@something.com">
+                </div>
+                <div class="input-box">
+                    <h4>Razón</h4>
+                    <select name="" name="message" id="options">
+                        <option disabled selected>Seleccionar</option>
+                        <option value="Particular">Particular</option>
+                        <option value="Local">Local interesado</option>
+                        <option value="Revendedor">Revendedor</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <h4>Comentario</h4>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Deje aquí un comentario si así lo desea."></textarea>
+                </div>
+               <button type="submit" id="send-btn">ENVIAR</button>
+            </form>
+        </section>
+
+        <section class="redes-contacto">
+            <div class="caja-redes">
+                <img src="img/facebook-contact-icon.png" alt="">
+                <div class="contenido-redes-contacto">
+                    <h2>ENCONTRANOS EN FACEBOOK</h2>
+                    <p>Publicaciones y ofertas, <br> todos los días</p>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100083129000783">VER MÁS</a>
+                </div>
+            </div>
+            <div class="caja-redes">
+                <img src="img/instagram-contact.png" alt="">
+                <div class="contenido-redes-contacto">
+                    <h2>SEGUINOS EN INSTAGRAM</h2>
+                    <p>Sorteos, próximos <br> productos, y mucho más</p>
+                    <a target="_blank" href="https://www.instagram.com/nikela_style/?igshid=YmMyMTA2M2Y%3D">VER MÁS</a>
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <ul>
+            <li class="title-footer">CONTACTO</li>
+            <li>Wapp : 1133341558</li>
+            <li>Instagram: NIKELA_STYLE</li>
+        </ul>
+        <hr class="div-line">
+        <ul>
+            <li class="title-footer">UBICACIÓN</li>
+            <li><i class="fa-solid fa-location-dot"></i>Garín, GBA</li>
+            <li>Consultar por envíos</li>
+        </ul>
+        <hr class="div-line">
+        <div class="rights-box">
+            <div>
+                <img src="img/logo.png" alt="logo NIKELA_STYLE" class="logo-footer">
+                <p>Nikela Style</p>
+            </div>
+            <hr>
+            <p>
+                Todos los derechos reservados <i class="fa-solid fa-copyright"></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
