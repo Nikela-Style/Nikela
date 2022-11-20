@@ -318,6 +318,24 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+.index-1 {
+    background:url(img/index-ventas-shorts.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.index-2 {
+    background:url(img/index-ventas-camperas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.index-3 {
+    background:url(img/index-ventas-chaquetas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .test {
     background:url(img/test.jpg);
     background-size: cover;
