@@ -300,6 +300,24 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+.puffer {
+    background:url(img/puffer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.camp-jean {
+    background:url(img/camp-jean.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.camp-tachas {
+    background:url(img/tachas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .dream {
     background:url(img/conjunto.png);
     background-size: cover;
